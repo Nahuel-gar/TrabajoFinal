@@ -125,3 +125,21 @@ footer{
 #equipo{
     margin-left: 780px;
 }
+#copy{
+    background-color: tan;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#copy a{
+    text-decoration: none;
+    color: black;
+}
+#copy div{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
