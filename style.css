@@ -63,10 +63,15 @@ header nav ul li a{
 .r1{
     background-image: url(imagenes/reserva1.jpg);
 }
+.r2{
+    background-image: url(imagenes/reserva2.jpg);
+}
 .precio{
     align-self: flex-end;
     background-color: rgba(0, 0, 0, 0.7);
     width: 10%;
     height: 8vh;
     margin: 20px 40px;
+    text-align: center;
+    padding-top: 20px;
 }
