@@ -139,7 +139,7 @@ header nav ul li a:hover{
 .precio a:hover{
     color: rgb(260, 120, 61);
 }
-footer{
+#footer1{
     width: 100%;
     height: 80vh;
     display: flex;
@@ -219,21 +219,123 @@ footer{
     font-size: 1.3em; 
 }
 #copy{
-    background-color: rgb(170, 145, 112);
+    background-color: rgb(0, 0, 0, 0.7);
     width: 100%;
     height: 5vh;
     margin: 10px 0;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    color: rgb(187, 187, 187);
 }
 #copy a{
     text-decoration: none;
-    color: black;
+    color: rgb(187, 187, 187);
 }
 #copy div{
     width: 23%;
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+/* estilos para index2 */
+
+#bodyindex2{
+    background-image: linear-gradient(rgba(36, 36, 36, 0.7), rgba(0, 59, 49, 0.7)), url(imagenes/backgroungreen.jpg);
+}
+#contenedor{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#invisible{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer2{
+    width: 100%;
+    height: 1vh;
+    margin-bottom: 30px;
+}
+#titulo2{
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 2px solid rgb(260, 120, 61);
+    padding-bottom: 20px;
+}
+#titulo2 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.cuadro{
+    width: 45%;
+    height: 62vh;
+}
+#enviar{
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+}
+.c2{
+    margin-right:80px ;
+}
+.c2 input, .c2 select{
+    border: none;
+    color: white;
+    padding: 15px 38px;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgb(260, 120, 61);
+}
+.c2 select{
+    border: 2px solid rgb(260, 120, 61);
+}
+.c2 input::placeholder{
+    color: white;
+}
+.c2 select option{
+    font-family: 'Times New Roman', Times, serif;
+}
+.c3 label, .c3 input{
+    font-size: 2em;
+    margin: 10px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.c3 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3em;
+    margin-top: 8px;
+    color: white;
+}
+.c3 textarea{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    margin: 21px 0;
+    border: 2px solid rgb(260, 120, 61);
+}
+.c3 textarea::placeholder{
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+}
+#enviar input{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 20px 80px;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#enviar input:hover{
+    color: rgb(260, 120, 61);
+    cursor: pointer;
 }
