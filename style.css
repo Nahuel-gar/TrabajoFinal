@@ -148,8 +148,13 @@ footer{
 .datos{
     width: 32%;
     height: 55%;
-    background-color: gray;
     margin: 0 11px;
+    border-right: 2px solid rgb(260, 120, 61);
+    border-bottom: 2px solid rgb(260, 120, 61);
+    box-sizing: border-box;
+}
+#pago{
+    border-right: none;
 }
 #maps{
     width: 80%;
@@ -159,33 +164,65 @@ footer{
 #maps img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .datos h1{
     margin: 20px 50px;
-}
-#contacto h1{
-    margin: 80px;
+    color: white;
     text-align: center;
+    line-height: 50px;
+}
+#whatsapp{
+    color: white;
+    margin: 0 265px;
+    font-size: 6em;
+}
+#whatsapp:hover{
+    color: rgb(260, 120, 61);
 }
 #integrantes{
     width: 100%;
     height: 40%;
-    background-color: gray;
     display: flex;
     justify-content: space-evenly;
 }
 .alumnos{
     width: 20%;
     height: 100%;
-    background-color: red;
 }
 #equipo{
-    margin-left: 780px;
+    margin: 10px 0 30px 780px;
+    color: white;
+}
+.alumnos{
+    padding-left: 75px;
+}
+.foto{
+    background-color: aqua;
+    width: 80%;
+    height: 80%;
+}
+.texto{
+    width: 80%;
+    height: 25%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.texto:hover{
+    color: rgb(260, 120, 61);
+}
+.texto h1{
+    font-size: 1.8em
+}
+.texto h2{
+    font-size: 1.3em; 
 }
 #copy{
-    background-color: tan;
+    background-color: rgb(170, 145, 112);
     width: 100%;
     height: 5vh;
+    margin: 10px 0;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
