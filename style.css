@@ -1,5 +1,6 @@
 *{margin: 0; padding: 0;
     font-family:'josefin slab';
+    color:white;
 }
 body{
     min-height: 100vh;
@@ -19,10 +20,8 @@ header nav ul li{
 }
 header nav ul li a{
     text-decoration: none;
-    color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
-    color: white
 }
 header nav ul li a:hover{
     color: rgb(260, 120, 61)
@@ -53,14 +52,12 @@ header nav ul li a:hover{
     text-align: center;
 }
 #titulo h1{
-    color: white;
     margin: 60px 0 20px;
     letter-spacing: 4px;
     font-size: 4em;
     padding: 20px;
 }
 #titulo h3{
-    color: white;
     letter-spacing: 4px;
     font-size: 3em;
     padding: 20px;
@@ -74,7 +71,6 @@ header nav ul li a:hover{
     justify-content: space-between;
 }
 .info{
-    color: white;
     align-self: center;
     width: 30%;
     height: 30vh;
@@ -128,7 +124,6 @@ header nav ul li a:hover{
 .precio h1, .precio a{
     font-family: 'preahvihear';
     font-weight: bold;
-    color: white;
     margin: 8px;
 }
 .precio a{
@@ -168,12 +163,10 @@ header nav ul li a:hover{
 }
 .datos h1{
     margin: 20px 50px;
-    color: white;
     text-align: center;
     line-height: 50px;
 }
 #whatsapp{
-    color: white;
     margin: 0 265px;
     font-size: 6em;
 }
@@ -192,13 +185,11 @@ header nav ul li a:hover{
 }
 #equipo{
     margin: 10px 0 30px 780px;
-    color: white;
 }
 .alumnos{
     padding-left: 75px;
 }
 .foto{
-    background-color: white;
     width: 80%;
     height: 80%;
 }
@@ -207,7 +198,6 @@ header nav ul li a:hover{
     height: 25%;
     text-align: center;
     padding-top: 10px;
-    color: white;
 }
 .texto:hover{
     color: rgb(260, 120, 61);
@@ -226,11 +216,13 @@ header nav ul li a:hover{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    color: rgb(187, 187, 187);
+}
+#copy div h2{
+    color: rgb(168, 168, 168);
 }
 #copy a{
     text-decoration: none;
-    color: rgb(187, 187, 187);
+    color: rgb(168, 168, 168);
 }
 #copy div{
     width: 23%;
@@ -272,7 +264,6 @@ header nav ul li a:hover{
 }
 #titulo2 h1{
     font-family: 'Times New Roman', Times, serif;
-    color: white;
 }
 .cuadro{
     width: 45%;
@@ -286,9 +277,8 @@ header nav ul li a:hover{
 .c2{
     margin-right:80px ;
 }
-.c2 input, .c2 select{
+.c2 input, .select{
     border: none;
-    color: white;
     padding: 15px 38px;
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
@@ -296,44 +286,40 @@ header nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 2px solid rgb(260, 120, 61);
 }
-.c2 select{
+.select{
     border: 2px solid rgb(260, 120, 61);
 }
 .c2 input::placeholder{
     color: white;
 }
-.c2 select option{
+.select option{
     font-family: 'Times New Roman', Times, serif;
 }
 .c3 label, .c3 input{
     font-size: 2em;
     margin: 10px 5px;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
 }
 .c3 h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.3em;
     margin-top: 8px;
-    color: white;
 }
 .c3 textarea{
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 1.5em;
     margin: 21px 0;
     border: 2px solid rgb(260, 120, 61);
-    color: white;
     font-family: 'Times New Roman', Times, serif;
 }
-.c3 textarea::placeholder{
-    color: white; 
+.c3 textarea::placeholder{ 
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 #enviar input{
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     padding: 20px 80px;
-    color: white;
     font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -344,27 +330,63 @@ header nav ul li a:hover{
 
 /* estilos para index3 */
 #invisible2{
-    background-color: aqua;
     width: 70%;
     height: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #titulo3{
-    background-color: blue;
     width: 100%;
     height: 20%;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(260, 120, 61);
+}
+#titulo3 h1{
+    font-family: 'Times New Roman', Times, serif;
 }
 .cuadro2{
-    background-color: yellow;
     width: 45%;
-    height:70% ;
+    height:50% ;
+    margin-top: 20px;
 }
 #enviar2{
-    background-color: blue;
     width: 50%;
     height: 10%;
-    
+    margin: 10px 0;
+}
+.pregunta{
+    border-bottom: 1px solid rgb(260, 120, 61);
+    font-size: 1.7em !important;
+    margin-left: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cuadro2 input{
+    margin: 8px 5px 0 70px;
+}
+.cuadro2 label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+#text{
+    width: 90%;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#text textarea{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    border: 2px solid rgb(260, 120, 61);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.s2{
+    margin: 30px 0 0 150px;
+    padding: 15px 25px;
+    font-size: 1.5em;
+}
+.cuadroderecho input, .cuadroderecho .pregunta{
+    margin-left: 150px;
 }
