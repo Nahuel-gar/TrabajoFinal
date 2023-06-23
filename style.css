@@ -184,7 +184,8 @@ header nav ul li a:hover{
     height: 100%;
 }
 #equipo{
-    margin: 10px 0 30px 780px;
+    text-align: center;
+    margin: 20px auto;
 }
 .alumnos{
     padding-left: 75px;
