@@ -39,7 +39,7 @@ header nav ul li a:hover{
 #inicio{
     width: 100%;
     height: 100vh;
-    background-image: url(/imagenes/chamakitos.jpg);
+    background-image: url(../imagenes/chamakitos.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,13 +105,13 @@ header nav ul li a:hover{
     margin: 10px;
 }
 .r1{
-    background-image: url(/imagenes/reserva1.jpg);
+    background-image: url(../imagenes/reserva1.jpg);
 }
 .r2{
-    background-image: url(/imagenes/reserva2.jpg);
+    background-image: url(../imagenes/reserva2.jpg);
 }
 .r3{
-    background-image: url(/imagenes/reserva3.jpg);
+    background-image: url(../imagenes/reserva3.jpg);
 }
 .precio{
     align-self: flex-end;
@@ -240,7 +240,7 @@ header nav ul li a:hover{
 /* estilos para index2 */
 
 #bodyindex2{
-    background-image: linear-gradient(rgba(36, 36, 36, 0.7), rgba(0, 59, 49, 0.7)), url(/imagenes/backgroungreen.jpg);
+    background-image: linear-gradient(rgba(36, 36, 36, 0.7), rgba(0, 59, 49, 0.7)), url(../imagenes/backgroungreen.jpg);
 }
 .contenedor{
     width: 100%;
